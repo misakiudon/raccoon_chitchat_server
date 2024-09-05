@@ -22,10 +22,13 @@ python server.py
 ```
 
 ## Run with client
-```
+When the server is running, find below at the terminal...
+
+<pre>
 Models loaded: 1
-Ngrok tunnel open at: NgrokTunnel: **"https://server-ngrok-url.ngrok-free.app"** -> "http://localhost:5000"
+Ngrok tunnel open at: NgrokTunnel: <b><i>"https://server-ngrok-url.ngrok-free.app"</i></b> -> "http://localhost:5000"
  * Serving Flask app 'server'
  * Debug mode: off
-```
-Copy the ngrok url and use as argument for client. 
+</pre>
+
+Copy the <b><i>ngrok url</i></b> and use as argument for [client](https://github.com/misakiudon/raccoon_chitchat_client). 
